@@ -1,0 +1,71 @@
+Last login: Tue Aug 20 18:21:20 on ttys000
+Lituania09:~ alumno$ LS
+Desktop		Downloads	Library		PRACTICA2	Pictures
+Lituania09:~ alumno$ cd PRACTICA2
+Lituania09:PRACTICA2 alumno$ LS
+Algebra		Fisica		Programacion	de
+Calculo		Fundamentos	Quimica
+Lituania09:PRACTICA2 alumno$ cd Algebra
+Lituania09:Algebra alumno$ touch datos.txt
+Lituania09:Algebra alumno$ ls
+datos.txt
+Lituania09:Algebra alumno$ echo "Jose Angel Martinez Luna NºC 317043316"
+Jose Angel Martinez Luna NºC 317043316
+Lituania09:Algebra alumno$ cd PRACTICA2
+-bash: cd: PRACTICA2: No such file or directory
+Lituania09:Algebra alumno$ cd Calculo
+-bash: cd: Calculo: No such file or directory
+Lituania09:Algebra alumno$ ls
+datos.txt
+Lituania09:Algebra alumno$ cd datos.txt
+-bash: cd: datos.txt: Not a directory
+Lituania09:Algebra alumno$ ls
+datos.txt
+Lituania09:Algebra alumno$ cd tareas
+-bash: cd: tareas: No such file or directory
+Lituania09:Algebra alumno$ cd ALgebra
+-bash: cd: ALgebra: No such file or directory
+Lituania09:Algebra alumno$ echo "Jose Angel Martinez Luna  NºC 317043316" >> datos.txt
+Lituania09:Algebra alumno$ cat datos.txt
+Jose Angel Martinez Luna  NºC 317043316
+Lituania09:Algebra alumno$ cd calculo
+-bash: cd: calculo: No such file or directory
+Lituania09:Algebra alumno$ cd PRACTICA2/
+-bash: cd: PRACTICA2/: No such file or directory
+Lituania09:Algebra alumno$ cd PRACTICA2
+-bash: cd: PRACTICA2: No such file or directory
+Lituania09:Algebra alumno$ cd ..
+Lituania09:PRACTICA2 alumno$ cd Calculo
+Lituania09:Calculo alumno$ ls
+datos.ext	datos.txt
+Lituania09:Calculo alumno$ cat datos.txt
+Jose Angel Martinez Luna NºCuenta 317043316
+Lituania09:Calculo alumno$ cd ..
+Lituania09:PRACTICA2 alumno$ ls
+Algebra		Fisica		Programacion	de
+Calculo		Fundamentos	Quimica
+Lituania09:PRACTICA2 alumno$ cd Fisica
+Lituania09:Fisica alumno$ touch datos.txt
+Lituania09:Fisica alumno$ ls
+datos.txt
+Lituania09:Fisica alumno$ echo "Jose Angel Martinez Luna NºC 3170433176" >> datos.txt
+Lituania09:Fisica alumno$ cat datos.txt
+Jose Angel Martinez Luna NºC 3170433176
+Lituania09:Fisica alumno$ cd ..
+Lituania09:PRACTICA2 alumno$ cd Quimica
+Lituania09:Quimica alumno$ touch datos.txt
+Lituania09:Quimica alumno$ echo "Jose Angel Martinez Luna NºC 317043316" >> datos.txt
+Lituania09:Quimica alumno$ cat datos.txt
+Jose Angel Martinez Luna NºC 317043316
+Lituania09:Quimica alumno$ cd ..
+Lituania09:PRACTICA2 alumno$ ls
+Algebra		Fisica		Programacion	de
+Calculo		Fundamentos	Quimica
+Lituania09:PRACTICA2 alumno$ cd Fundamentos de Programacion
+Lituania09:Fundamentos alumno$ touch datos.txt
+Lituania09:Fundamentos alumno$ echo "Jose Angel Martinez Luna NºC 317043316" >> datos.txt
+Lituania09:Fundamentos alumno$ cat datos.txt
+Jose Angel Martinez Luna NºC 317043316
+Lituania09:Fundamentos alumno$ cd ..
+Lituania09:PRACTICA2 alumno$ cd ..
+Lituania09:~ alumno$ cd ..
