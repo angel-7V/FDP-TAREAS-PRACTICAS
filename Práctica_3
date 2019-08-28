@@ -1,0 +1,37 @@
+A) Dado un precio calcular su descuento considerando que si su precio es mayor a 100 el descuento es de 10%, de otra manera el descuento es del 2 % Entrada:Precio del producto. 
+Salida: El descuento aplicado al producto. 
+ 
+1)	Ingresar el precio del producto. 
+2)	Comparar si el valor del producto es mayor a 100. 
+3)	Una vez identificado el valor en caso de ser mayor a 100 se realiza la siguiente operación PrecioProducto x  .10 .  
+4)En caso de ser menor a 100 realizar la siguiente operación PrecioProducto  .02 .  
+5) El resultado obtenido dependiendo del valor de producto es el descuento que debe aplicarse al precio inicial. 
+ 
+ 
+ 
+B) Un algoritmo que lea a dos números y que calcule las operaciones básicas de esos dos números. 
+Entrada:Los dos números.  
+Salida: Resultados de las operaciones básicas de esos números. 
+ 
+1)	Identificar ambos números A y B. 
+2)	Identificar cuales son las operaciones básicas (SUMA, RESTA, MULTIPLICACION Y DIVISION). 
+3)	Realizar la sustitución de los números en la primera operación (SUMA). 
+ A + B =RS (Resultado Suma) 
+4) Realizar la sustitución de los números en la segunda operación (RESTA), realizar esta operación invirtiendo el orden de los datos para obtener todos los resultados posibles. 
+A	- B = RR1 (Resultado Resta 1) 
+B	- A = RR2 (Resultado Resta 2) 
+5) Realizar la sustitución de los números en la tercera operación (MULTIPLICACIÓN). 
+A x B = RM (Resutado Multiplicación) 
+6) Realizar la sustitución de los números en la cuarta operación (DIVISIÓN) realizar esta operación invirtiendo el orden de los datos para obtener todos los resultados posibles. 
+A	/ B = RD1 (Resultado Division 1) 
+B	/ A = RD2 (Resultado Division 2) 
+7) Obtenidos todos los resultados de cada operación básica dar los resultados al usuario. 
+ 
+C) Leer tres números que van a denotar una fecha, dia , mes y año, verificar si es una fecha válida. 
+Entrada:Tres números. 
+Salida:Verificación de si es fecha y en su caso la misma. 
+ 
+1)	Recibir los tres números a trabajar. 
+2)	Identificar los tres números A, B y C. 
+3)	Tomar individualmente cada uno de los números y realizar lo siguiente. 
+DIA = A=<  
